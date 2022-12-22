@@ -1,0 +1,26 @@
+.container{
+    margin: 80px;
+   margin-left: 100px;
+    width: 85%;
+    align-items: center;
+  justify-self: start;
+  justify-items: center;
+  justify-content: center;
+}
+.btn{
+    width: 140px;
+    
+    border-radius: 0.3rem;
+    background-color: rgb(16, 157, 16);
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 4px;
+    margin-bottom: 30px ;
+}
+
+.btn:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: rgb(85, 215, 9);
+    width: 150px;
+}
